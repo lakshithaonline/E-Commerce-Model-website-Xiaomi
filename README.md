@@ -1,6 +1,5 @@
 # Xiaomi Flagships E-Commerce App | TypeScript
 
-![Xiaomi Flagships Logo](https://assets.stickpng.com/images/6102dadda849c40004f9a13b.png)
 
 Welcome to the Xiaomi Flagships E-Commerce App! This app allows you to explore and purchase the latest Xiaomi flagship smartphones. With an intuitive user interface and a wide range of features, it provides a seamless shopping experience for tech enthusiasts.
 
