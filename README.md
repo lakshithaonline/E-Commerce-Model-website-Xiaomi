@@ -1,7 +1,7 @@
-# Xiaomi Flagships E-Commerce App | TypeScript
+# Xiaomi Flagships E-Commerce Web App | TypeScript 
 
 
-Welcome to the Xiaomi Flagships E-Commerce App! This app allows you to explore and purchase the latest Xiaomi flagship smartphones. With an intuitive user interface and a wide range of features, it provides a seamless shopping experience for tech enthusiasts.
+Welcome to the Xiaomi Flagships E-Commerce Model App! This app allows you to explore and purchase the latest Xiaomi flagship smartphones. With an intuitive user interface and a wide range of features, it provides a seamless shopping experience for tech enthusiasts.
 
 ## Features
 
