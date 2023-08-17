@@ -15,12 +15,12 @@ Welcome to the Xiaomi Flagships E-Commerce App! This app allows you to explore a
 
 ## Technologies
 
-- **Vite:** Rapid development and optimized builds. ![Vite Badge](https://img.shields.io/badge/-Vite-646CFF)
-- **React:** Building the user interface and components. ![React Badge](https://img.shields.io/badge/-React-61DAFB)
-- **React Bootstrap:** Styling and responsive design. ![React Bootstrap Badge](https://img.shields.io/badge/-React%20Bootstrap-7952B3)
-- **React Router:** Handling client-side routing. ![React Router Badge](https://img.shields.io/badge/-React%20Router-CA4245)
-- **TypeScript:** Adding static typing and enhanced development experience. ![TypeScript Badge](https://img.shields.io/badge/-TypeScript-007ACC)
-- **Context API:**
+- **Vite:** Rapid development and optimized builds.
+- **React:** Building the user interface and components.
+- **React Bootstrap:** Styling and responsive design.
+- **React Router:** Handling client-side routing.
+- **TypeScript:** Adding static typing and enhanced development experience.
+- **Context API:** Managing shopping cart state.
   
 ## Getting Started
 
