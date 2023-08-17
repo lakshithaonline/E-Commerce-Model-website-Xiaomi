@@ -15,18 +15,18 @@ Welcome to the Xiaomi Flagships E-Commerce App! This app allows you to explore a
 
 ## Technologies
 
-- **![Vite Logo](url-to-vite-icon)**: Rapid development and optimized builds.
-- **![React Logo](url-to-react-icon)**: Building the user interface and components.
-- **![React Bootstrap Logo](url-to-react-bootstrap-icon)**: Styling and responsive design.
-- **![React Router Logo](url-to-react-router-icon)**: Handling client-side routing.
-- **![TypeScript Logo](url-to-typescript-icon)**: Adding static typing and enhanced development experience.
-- **![Context API Logo](url-to-context-api-icon)**: Managing shopping cart state.
-
+- **Vite:** Rapid development and optimized builds. ![Vite Badge](https://img.shields.io/badge/-Vite-646CFF)
+- **React:** Building the user interface and components. ![React Badge](https://img.shields.io/badge/-React-61DAFB)
+- **React Bootstrap:** Styling and responsive design. ![React Bootstrap Badge](https://img.shields.io/badge/-React%20Bootstrap-7952B3)
+- **React Router:** Handling client-side routing. ![React Router Badge](https://img.shields.io/badge/-React%20Router-CA4245)
+- **TypeScript:** Adding static typing and enhanced development experience. ![TypeScript Badge](https://img.shields.io/badge/-TypeScript-007ACC)
+- **Context API:**
+  
 ## Getting Started
 
 1. Clone the repository: `git clone https://github.com/your-username/xiaomi-flagships-app.git`
 2. Install dependencies: `npm install`
-3. Start the development server: `npm start`
+3. Start the development server: `npm start
 4. Open your browser and navigate to `http://localhost:3000`
 
 ## License
