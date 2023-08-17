@@ -1,0 +1,56 @@
+
+.home {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+ 
+  .hero {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .hero .btn-primary {
+    background-color: #FF6900;
+    border-color: #FF6900;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .carousel {
+    margin-top: 20px;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .item-image {
+    width: 200px; 
+    height: 150px; 
+    object-fit: cover;
+  }
+  
+  
