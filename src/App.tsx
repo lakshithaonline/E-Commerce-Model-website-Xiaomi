@@ -5,6 +5,7 @@ import { Store } from "./pages/Store"
 import { About } from "./pages/About"
 import { Navbar } from "./components/Navbar"
 import { ShoppingCartProvider } from "./context/ShoppingCartContext"
+import Footer from "./components/Footer"
 //import {CheckoutForm } from "./components/orderCheckout/CheckoutForm"
 //import {DeliveryMethod } from "./components/orderCheckout/DeliveryMethod"
 //import {Confirmation } from "./components/orderCheckout/Confirmation"
@@ -23,6 +24,7 @@ function App() {
           {/*<Route path="/confirmation" element={<Confirmation/>} />*/}
         </Routes>
       </Container>
+        <Footer /> {/* Add the Footer component here */}
     </ShoppingCartProvider>
   )
 }
