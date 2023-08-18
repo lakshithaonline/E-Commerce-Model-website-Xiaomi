@@ -36,7 +36,7 @@ export function About() {
               <label htmlFor="email">Email</label>
               <input type="email" id="email" name="email" />
               <label htmlFor="message">Message</label>
-              <textarea id="message" name="message" rows="4" />
+              <textarea id="message" name="message" rows={4} />
               <button type="submit" className="btn btn-primary">Submit</button>
             </form>
           </Col>

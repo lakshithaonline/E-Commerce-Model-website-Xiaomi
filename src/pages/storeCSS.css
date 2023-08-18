@@ -17,3 +17,76 @@
   font-size: 1rem;
   color: #666;
 }
+
+
+
+/* storeCSS.css */
+
+/* Styles for the category filter dropdown */
+.category-filter {
+  margin-bottom: 20px;
+}
+
+/* Style the label */
+.category-filter label {
+  font-weight: bold;
+}
+
+/* Style the select dropdown */
+.category-filter select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: none;
+  font-size: 16px;
+}
+
+/* Style the select options */
+.category-filter select option {
+  font-size: 14px;
+}
+
+/* Add hover effect to options */
+.category-filter select option:hover {
+  background-color: #f2f2f2;
+}
+
+
+/* storeCSS.css */
+
+/* Styles for the store header */
+.store-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styles for the category filter dropdown */
+.category-filter {
+  margin-bottom: 20px;
+}
+
+/* Style the label */
+.category-filter label {
+  font-weight: bold;
+}
+
+/* Style the select dropdown */
+.category-filter select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: none;
+  font-size: 16px;
+}
+
+/* Style the select options */
+.category-filter select option {
+  font-size: 14px;
+}
+
+/* Add hover effect to options */
+.category-filter select option:hover {
+  background-color: #f2f2f2;
+}

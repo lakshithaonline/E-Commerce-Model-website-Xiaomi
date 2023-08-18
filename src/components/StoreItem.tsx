@@ -9,9 +9,10 @@ type StoreItemProps = {
   name: string;
   price: number;
   imgUrls: string[];
+  category: string; // Include category prop
 };
 
-export function StoreItem({ id, name, price, imgUrls }: StoreItemProps) {
+export function StoreItem({ id, name, price, imgUrls}: StoreItemProps) {
   const {
     getItemQuantity,
     increaseCartQuantity,
@@ -30,7 +31,6 @@ export function StoreItem({ id, name, price, imgUrls }: StoreItemProps) {
     return () => clearInterval(timer);
   }, [imgUrls]);
 
-  // If the quantity is greater than 0, show the "Remove" button
   const showRemoveButton = quantity > 0;
 
   return (
@@ -44,7 +44,11 @@ export function StoreItem({ id, name, price, imgUrls }: StoreItemProps) {
             <span className="item-price">{formatCurrency(price)}</span>
             <div className="item-actions">
               {quantity === 0 ? (
-                  <Button style={{ color: 'white' }} className="add-to-cart-button" onClick={() => increaseCartQuantity(id)}>
+                  <Button
+                      style={{ color: 'white' }}
+                      className="add-to-cart-button"
+                      onClick={() => increaseCartQuantity(id)}
+                  >
                     + Add To Cart
                   </Button>
               ) : (

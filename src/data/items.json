@@ -9,7 +9,9 @@
 	"https://lifemobile.lk/wp-content/uploads/2023/05/Xiaomi-Redmi-12C-4GB-RAM-64GB-1.jpg",
 	"https://lifemobile.lk/wp-content/uploads/2023/05/Xiaomi-Redmi-12C-4GB-RAM-64GB-2.jpg"
 
-    ]
+
+    ],
+    "category": "Smart Phone"
   },
 
   {
@@ -22,7 +24,8 @@
 	"https://lifemobile.lk/wp-content/uploads/2022/06/Xiaomi-Watch-S1-Active-2.jpg",
 	"https://lifemobile.lk/wp-content/uploads/2022/06/Xiaomi-Watch-S1-Active-3.jpg"
 
-    ]
+    ],
+    "category": "Smart Watch"
   },
   {
     "id": 3,
@@ -33,8 +36,8 @@
       "https://lifemobile.lk/wp-content/uploads/2021/08/Xiaomi-Haylou-GT6-True-Wireless-Earbuds-8-600x600.jpg",
 	"https://lifemobile.lk/wp-content/uploads/2021/08/Xiaomi-Haylou-GT6-True-Wireless-Earbuds-1.jpg",
 	"https://lifemobile.lk/wp-content/uploads/2021/08/Xiaomi-Haylou-GT6-True-Wireless-Earbuds-3.jpg"
-
-    ]
+    ],
+    "category": "Bluetooth Devices"
   },
   {
     "id": 4,
@@ -44,7 +47,8 @@
       "https://www.gizmochina.com/wp-content/uploads/2018/06/Xiaomi-Mi-Notebook-Air-13.3-Global-Version-600x600.jpg",
       "https://www.notebookcheck.net/fileadmin/Notebooks/Xiaomi/Mi_Air_13_inch_2016_i5_940MX/4zu3miair.jpg",
 	"https://laptopmedia.com/wp-content/uploads/2018/11/3c81b8b2-3e9e-4618-8dcc-565c4a2a0b74.jpg"
-    ]
+    ],
+    "category": "Laptop"
   },
   {
     "id": 5,
@@ -53,7 +57,8 @@
      "imgUrls": [
       "https://lifemobile.lk/wp-content/uploads/2021/07/Mi-Portable-Bluetooth-Speaker-03.jpg",
       "https://lifemobile.lk/wp-content/uploads/2021/07/Mi-Portable-Bluetooth-Speaker-02.jpg"	
-    ]
+    ],
+    "category": "Bluetooth Devices"
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
       "https://global.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1520419119.35417502.png",
       "https://i03.appmifile.com/748_item_in/18/04/2023/2977ba5d3a35bf349481d2cb67c018ee.jpg",
       "https://i01.appmifile.com/webfile/globalimg/in/cms/9E8A096E-085A-B3CD-FB95-D0322641483D!800x800!85.jpg"		
-    ]
+    ],
+    "category": "TVs & Monitors"
   },
   {
     "id": 7,
@@ -72,7 +78,8 @@
    "imgUrls": [
       "https://ae01.alicdn.com/kf/HTB1vqf2DNGYBuNjy0Fnq6x5lpXaO/Original-Xiaomi-VR-BOX-Mi-VR-Play-2-Immersive-3D-Virtual-Reality-Glass-Headset-Work-For.jpg",
       "https://cdn.fotosklad.ru/upload/iblock/684/6847f688f474ce2a5f2cfcf27a81ed38_thumb_c964fe4a8e60f8f.jpg"	
-    ]
+    ],
+    "category": "VR & Playstation"
   },
   {
     "id": 8,
@@ -81,7 +88,8 @@
      "imgUrls": [
       "https://homekitnews.com/wp-content/uploads/2019/12/mi-smart-gateway-rv-fi-800x445.jpg",
       "https://1.bp.blogspot.com/-JCV1hz2FTCk/XkK_kwT9r3I/AAAAAAAAPmY/S9piMXgrjZ0213p-Dt2v1X71qwXxgP6ugCNcBGAsYHQ/s1600/Xiaomi-Gateway-3-foto.jpg"	
-    ]
+    ],
+    "category": "Network Accessories"
   },
   {
     "id": 9,
@@ -90,7 +98,8 @@
     "imgUrls": [
       "https://i01.appmifile.com/webfile/globalimg/products/pc/mi-smart-band-6/section09-1.png",
       "https://i01.appmifile.com/webfile/globalimg/products/pc/mi-smart-band-6/section01-1.png"	
-    ]
+    ],
+    "category": "Smart Watch"
   },
   {
     "id": 10,
@@ -99,6 +108,7 @@
    "imgUrls": [
       "https://static-01.daraz.lk/p/7c14e30e92ce44e7d722078f3067f30d.jpg",
       "https://i.pinimg.com/736x/0e/0a/18/0e0a18bcc0e2b931a15766531c598a74.jpg"	
-    ]
+    ],
+    "category": "Other Accessories"
   }
 ]
