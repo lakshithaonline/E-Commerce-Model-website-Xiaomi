@@ -1,32 +1,37 @@
-import { Routes, Route } from "react-router-dom"
-import { Container } from "react-bootstrap"
-import { Home } from "./pages/Home"
-import { Store } from "./pages/Store"
-import { About } from "./pages/About"
-import { Navbar } from "./components/Navbar"
-import { ShoppingCartProvider } from "./context/ShoppingCartContext"
-import Footer from "./components/Footer"
-//import {CheckoutForm } from "./components/orderCheckout/CheckoutForm"
-//import {DeliveryMethod } from "./components/orderCheckout/DeliveryMethod"
-//import {Confirmation } from "./components/orderCheckout/Confirmation"
+import { Routes, Route, useLocation } from "react-router-dom";
+import { Container } from "react-bootstrap";
+import { Home } from "./pages/Home";
+import { Store } from "./pages/Store";
+import { About } from "./pages/About";
+import { Navbar } from "./components/Navbar";
+import { ShoppingCartProvider } from "./context/ShoppingCartContext";
+import Footer from "./components/Footer";
+import Login from './components/Login/Login.tsx';
+import Admin from "./components/Admin/Admin.tsx";
+import Settings from "./components/Admin/settings.tsx";
+import { ReactNode } from "react";
 
-function App() {
-  return (
-    <ShoppingCartProvider>
-      <Navbar />
-      <Container className="mb-4">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/store" element={<Store />} />
-          <Route path="/about" element={<About />} />
-         { /*<Route path="/checkout" element={<CheckoutForm/>} />*/}
-          {/*<Route path="/delivery" element={<DeliveryMethod/>} />*/}
-          {/*<Route path="/confirmation" element={<Confirmation/>} />*/}
-        </Routes>
-      </Container>
-        <Footer /> {/* Add the Footer component here */}
-    </ShoppingCartProvider>
-  )
+function App(): ReactNode {
+    const location = useLocation();
+    const isAdminPage = location.pathname.startsWith("/admin") || location.pathname === "/settings";
+    const showFooter = !isAdminPage;
+
+    return (
+        <ShoppingCartProvider>
+            {!isAdminPage && <Navbar />}
+            <Container className="mb-4">
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/store" element={<Store />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/admin" element={<Admin />} />
+                    <Route path="/settings" element={<Settings />} />
+                </Routes>
+            </Container>
+            {showFooter && <Footer />}
+        </ShoppingCartProvider>
+    );
 }
 
-export default App
+export default App;

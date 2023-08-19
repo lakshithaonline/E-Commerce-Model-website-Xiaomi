@@ -1,0 +1,76 @@
+/* ResponsiveNavigationBar.css */
+.responsive-navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px; /* Initial width, can be adjusted */
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    transition: width 0.3s ease-in-out;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toggle-button {
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.bar-open {
+    transform: rotate(45deg);
+}
+
+.expanded {
+    width: 250px; /* Expanded width */
+}
+
+.nav-links {
+    display: none; /* Hidden by default */
+}
+
+.responsive-navigation.expanded .nav-links {
+    display: block;
+}
+
+.nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.nav-links ul li {
+    padding: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    transition: background-color 0.2s;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+}
+
+.nav-links a.active {
+    background-color: #444;
+}
+

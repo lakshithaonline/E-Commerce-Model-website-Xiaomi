@@ -12,7 +12,7 @@ export function Navbar() {
         <NavbarBs.Brand to="/" as={NavLink} className="navbar-logo" style={{ color: 'white' }}>
         <img
         src="https://assets.stickpng.com/images/6102dadda849c40004f9a13b.png"
-        alt="Xiaomi Logo"
+        alt=""
         className="logo-image"
         />
           Xiaomi Flagships
@@ -36,8 +36,8 @@ export function Navbar() {
             <Button
               onClick={openCart}
               style={{
-                width: '3rem',
-                height: '3rem',
+                width: '2.5rem',
+                height: '2.5rem',
                 position: 'relative',
                 color: 'white',
                 borderColor: 'white',

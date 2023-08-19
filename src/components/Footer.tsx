@@ -21,6 +21,7 @@ function Footer() {
               <li><a href="/">Home</a></li>
               <li><a href="/Store">Shop</a></li>
               <li><a href="/About">About</a></li>
+              <li><a href="/login">Admin Login</a></li>
             </ul>
           </div>
           <div className="footer-section social-media">
