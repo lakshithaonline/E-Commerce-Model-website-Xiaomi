@@ -32,7 +32,7 @@ function AdminPage() {
                     </Card>
                 </Col>
                 <Col span={12}>
-                    <Card title="Slide Show" className="admin-card">
+                    <Card title="Recently Added Products" className="admin-card">
                         <div className="slideshow">
                             <img src="https://via.placeholder.com/640x220" alt="Slideshow" />
                         </div>

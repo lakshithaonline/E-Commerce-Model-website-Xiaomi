@@ -91,9 +91,6 @@
 }
 
 
-/* Existing Navbar CSS */
-
-/* Additional CSS for Login/Register Buttons */
 .login-register-buttons {
   display: flex;
   align-items: center;

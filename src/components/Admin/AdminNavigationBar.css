@@ -1,13 +1,13 @@
-/* ResponsiveNavigationBar.css */
 .responsive-navigation {
     position: fixed;
     top: 0;
     left: 0;
-    width: 60px; /* Initial width, can be adjusted */
+    width: 50px;
     height: 100%;
     background-color: #333;
     color: #fff;
     transition: width 0.3s ease-in-out;
+    z-index: 1000;
 
     display: flex;
     flex-direction: column;
@@ -37,11 +37,11 @@
 }
 
 .expanded {
-    width: 250px; /* Expanded width */
+    width: 150px; /* Expanded width */
 }
 
 .nav-links {
-    display: none; /* Hidden by default */
+    display: none;
 }
 
 .responsive-navigation.expanded .nav-links {
