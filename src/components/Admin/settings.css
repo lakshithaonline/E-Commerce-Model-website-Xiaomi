@@ -1,0 +1,58 @@
+/* Settings.css */
+
+.settings-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.settings-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.form-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.add-button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}
+
+.notification {
+    font-size: 14px;
+    color: #ff0000;
+    margin-top: 10px;
+}

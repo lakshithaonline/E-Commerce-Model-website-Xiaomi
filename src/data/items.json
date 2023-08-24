@@ -8,8 +8,6 @@
       "https://lifemobile.lk/wp-content/uploads/2023/05/Xiaomi-Redmi-12C-4GB-RAM-64GB-3.jpg",
 	"https://lifemobile.lk/wp-content/uploads/2023/05/Xiaomi-Redmi-12C-4GB-RAM-64GB-1.jpg",
 	"https://lifemobile.lk/wp-content/uploads/2023/05/Xiaomi-Redmi-12C-4GB-RAM-64GB-2.jpg"
-
-
     ],
     "category": "Smart Phone"
   },
@@ -23,7 +21,6 @@
       "https://lifemobile.lk/wp-content/uploads/2022/06/Xiaomi-Watch-S1-Active-1.jpg",
 	"https://lifemobile.lk/wp-content/uploads/2022/06/Xiaomi-Watch-S1-Active-2.jpg",
 	"https://lifemobile.lk/wp-content/uploads/2022/06/Xiaomi-Watch-S1-Active-3.jpg"
-
     ],
     "category": "Smart Watch"
   },
@@ -50,6 +47,7 @@
     ],
     "category": "Laptop"
   },
+
   {
     "id": 5,
     "name": "Mi Portable Bluetooth Speaker (16W)",
